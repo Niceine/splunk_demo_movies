@@ -1,0 +1,10 @@
+SID|Product|Price
+1|Small Popcorn|3.50
+2|Medium Popcorn|4.50
+3|Large Popcorn|5.50
+4|Small Soda|2.75
+5|Medium Soda|3.75
+6|Large Soda|4.24
+7|Small Candy|2.00
+8|Medium Candy|3.00
+9|Large Candy|4.00

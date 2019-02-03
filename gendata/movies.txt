@@ -1,0 +1,19 @@
+MID|Movie|Rating|Price
+1|Glass|R|8.75
+2|The Kid Who Would Be King|PG|8.75
+3|The Upside|PG-13|8.75
+4|Aquaman|PG-13|6.50
+5|A Dog's Way Home|PG|8.75
+6|Miss Bala|PG-13|11.00
+7|Serenity|R|11.00
+8|Spider-Man: Into the SpiderVerse|PG|4.50
+9|Green Book|PG-13|4.50
+10|Escape Room|PG-13|8.75
+11|Mary Poppins Returns|PG|11.00
+12|BumbleBee|PG-13|8.75
+13|The Favorite|R|8.75
+14|Vice|R|4.50
+15|The Mule|R|4.50
+16|Stan & Ollie|PG|8.75
+17|A Star is Born|R|4.50
+18|Ralph Breaks the Internet|PG|1.00
