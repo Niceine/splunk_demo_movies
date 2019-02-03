@@ -1,0 +1,23 @@
+Fri Feb 1 12:09:58 CST 2019 :Starting log...
+Timestamp=Fri Feb 1 12:09:58 CST 2019|CustomerID=312|CustomerName=Sanders, Cathleen Z.|CCtype=M|CCNbr=513 76049 87448 200|CustomerAge=62|MovieID=12|MovieName=BumbleBee|MovieRating=PG-13|Price=8.75
+Timestamp=Fri Feb 1 12:09:58 CST 2019|CustomerID=312|CustomerName=Sanders, Cathleen Z.|CCtype=M|CCNbr=513 76049 87448 200|CustomerAge=62|SnackID=9|SnackName=Large Candy|Price=4.00
+Timestamp=Fri Feb 1 12:09:58 CST 2019|CustomerID=312|CustomerName=Sanders, Cathleen Z.|CCtype=M|CCNbr=513 76049 87448 200|CustomerAge=62|SnackID=9|SnackName=Medium Soda|Price=3.75
+Timestamp=Fri Feb 1 12:09:59 CST 2019|CustomerID=1231|CustomerName=Harrell, Odysseus H.|CCtype=V|CCNbr=4024007104712|CustomerAge=49|MovieID=18|MovieName=Ralph Breaks the Internet|MovieRating=PG|Price=1.00
+Timestamp=Fri Feb 1 12:09:59 CST 2019|CustomerID=1231|CustomerName=Harrell, Odysseus H.|CCtype=V|CCNbr=4024007104712|CustomerAge=49|MovieID=18|MovieName=Ralph Breaks the Internet|MovieRating=PG|Price=1.00
+Timestamp=Fri Feb 1 12:09:59 CST 2019|CustomerID=1231|CustomerName=Harrell, Odysseus H.|CCtype=V|CCNbr=4024007104712|CustomerAge=49|SnackID=0|SnackName=Large Soda|Price=4.24
+Timestamp=Fri Feb 1 12:09:59 CST 2019|CustomerID=688|CustomerName=Mann, Colin O.|CCtype=M|CCNbr=545 78867 23118 120|CustomerAge=45|MovieID=10|MovieName=Escape Room|MovieRating=PG-13|Price=8.75
+Timestamp=Fri Feb 1 12:09:59 CST 2019|CustomerID=688|CustomerName=Mann, Colin O.|CCtype=M|CCNbr=545 78867 23118 120|CustomerAge=45|SnackID=4|SnackName=Small Soda|Price=2.75
+Timestamp=Fri Feb 1 12:09:59 CST 2019|CustomerID=688|CustomerName=Mann, Colin O.|CCtype=M|CCNbr=545 78867 23118 120|CustomerAge=45|SnackID=4|SnackName=Medium Soda|Price=3.75
+Timestamp=Fri Feb 1 12:10:00 CST 2019|CustomerID=1643|CustomerName=Burnett, Jacqueline W.|CCtype=V|CCNbr=4716698579975352|CustomerAge=46|MovieID=10|MovieName=Escape Room|MovieRating=PG-13|Price=8.75
+Timestamp=Fri Feb 1 12:10:00 CST 2019|CustomerID=1643|CustomerName=Burnett, Jacqueline W.|CCtype=V|CCNbr=4716698579975352|CustomerAge=46|MovieID=10|MovieName=Escape Room|MovieRating=PG-13|Price=8.75
+Timestamp=Fri Feb 1 12:10:00 CST 2019|CustomerID=1643|CustomerName=Burnett, Jacqueline W.|CCtype=V|CCNbr=4716698579975352|CustomerAge=46|SnackID=8|SnackName=Medium Candy|Price=3.00
+Timestamp=Fri Feb 1 12:10:00 CST 2019|CustomerID=1643|CustomerName=Burnett, Jacqueline W.|CCtype=V|CCNbr=4716698579975352|CustomerAge=46|SnackID=8|SnackName=Medium Popcorn|Price=4.50
+Timestamp=Fri Feb 1 12:10:00 CST 2019|CustomerID=1019|CustomerName=Sullivan, Rajah X.|CCtype=V|CCNbr=4929495028980979|CustomerAge=68|MovieID=8|MovieName=Spider-Man: Into the SpiderVerse|MovieRating=PG|Price=4.50
+Timestamp=Fri Feb 1 12:10:00 CST 2019|CustomerID=1019|CustomerName=Sullivan, Rajah X.|CCtype=V|CCNbr=4929495028980979|CustomerAge=68|SnackID=6|SnackName=Large Soda|Price=4.24
+Timestamp=Fri Feb 1 12:10:00 CST 2019|CustomerID=1019|CustomerName=Sullivan, Rajah X.|CCtype=V|CCNbr=4929495028980979|CustomerAge=68|SnackID=6|SnackName=Medium Candy|Price=3.00
+Timestamp=Fri Feb 1 12:10:01 CST 2019|CustomerID=1148|CustomerName=Lowe, Noelani V.|CCtype=M|CCNbr=541 13486 14366 722|CustomerAge=52|MovieID=9|MovieName=Green Book|MovieRating=PG-13|Price=4.50
+Timestamp=Fri Feb 1 12:10:01 CST 2019|CustomerID=1148|CustomerName=Lowe, Noelani V.|CCtype=M|CCNbr=541 13486 14366 722|CustomerAge=52|SnackID=9|SnackName=Large Candy|Price=4.00
+Timestamp=Fri Feb 1 12:10:01 CST 2019|CustomerID=1148|CustomerName=Lowe, Noelani V.|CCtype=M|CCNbr=541 13486 14366 722|CustomerAge=52|SnackID=9|SnackName=Medium Candy|Price=3.00
+Timestamp=Fri Feb 1 12:10:01 CST 2019|CustomerID=1823|CustomerName=Dennis, Aubrey H.|CCtype=M|CCNbr=5126 8930 3777 9697|CustomerAge=35|MovieID=14|MovieName=Vice|MovieRating=R|Price=4.50
+Timestamp=Fri Feb 1 12:10:01 CST 2019|CustomerID=1823|CustomerName=Dennis, Aubrey H.|CCtype=M|CCNbr=5126 8930 3777 9697|CustomerAge=35|SnackID=6|SnackName=Large Soda|Price=4.24
+Fri Feb 1 12:09:58 CST 2019 :Starting log...
