@@ -1,20 +1,28 @@
 #!/bin/bash
 #set -x
-if [ "$2" == "" ]; then
-    datadir=$PWD
-else
-    datadir=$2
-fi
-if [ "$3" == "" ]; then
-    outputfile=$PWD/sales2.log
-else
-    outputfile=$3
-fi
-if [ "$1" == "" ]; then
-  delay=0
-else
-  delay=$1
-fi
+datadir=$PWD
+outputfile=$PWD/sales2.log
+delay=0
+while getopts "d:i:o:" opt; do
+  case $opt in
+    d ) # process option delay
+      delay=$OPTARG
+      ;;
+    i ) # process option input directory
+      datadir=$OPTARG
+      ;;
+    o ) # process option output file
+      outputfile=$OPTARG
+      ;;
+    ? ) 
+      echo "Usage: cmd [-d] [-i] [-o]"
+      exit 0
+      ;;
+  esac
+done
+echo 'Setting delay (seconds) : ' $delay
+echo 'Input data directory    :'$datadir
+echo 'Output file             :'$outputfile
 echo $(date) ":Starting movie ticket and snacks events..."
 echo $(date)':using base data' > ${outputfile}
 while IFS='' read -r line || [[ -n "$line" ]]; do
