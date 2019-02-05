@@ -6,7 +6,7 @@ Movie and Snack Sales
 
 The purpose of this docker image is to install the base Splunk image with the evaluation license, then setup a demonstration environment using data generated with a current timestamp.
 
-This container is provided as a quick demonstration starting point for real time data.  Data is generated in real time for approximately 20-25 minutes one the container image is start and automatically Splunk installed.  The base image for this container is from Splunk (splunk/splunk) with minor modifications to copy the /gendata directory and overlay the 'entrypoint.sh' script with two additional commands to add a monitor for /gendata/*.logs and start the /gendata/gentickets.sh script.
+This container is provided as a quick demonstration starting point for real time data.  Data is generated in real time for approximately 20-25 minutes once the container image is started and Splunk installed.  The base image for this container is from Splunk (splunk/splunk) with minor modifications to copy the /gendata directory and overlay the 'entrypoint.sh' script with two additional commands to add a monitor for /gendata/*.logs and start the /gendata/gentickets.sh script.
 
 Requirements
 --------------------
