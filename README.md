@@ -27,6 +27,7 @@ Actions | Command
 **To load Splunk in your web browser** | http://[machinename]:8000 (machine name is the name of your host machine)
 **To add the monitor for the generating sales** | /opt/splunk/bin/splunk add monitor -source /gendata/sales.log -auth admin:Sp1unk%%
 **To start the generating of data** | docker exec -d -u splunk splunkdemo "/gendata/gentickets.sh gendata &"
+**To load more data** | docker exec -d -u splunk splunkdemo "/gendata/gensales -d [delay in seconds per customer]"
 
 user: **admin**, password: **Sp1unk%%**
 
