@@ -36,12 +36,12 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
       mrate=`echo $movie | cut -d\| -f3 | sed 's/\\r//g'`
       mprice=`echo $movie | cut -d\| -f4 | sed 's/\\r//g'`
       
-      echo 'Timestamp='$(date)'|CustomerID='$cid'|CustomerName='$cname'|CCtype='$cctype'|CCNbr='$ccnbr'|CustomerAge='$cage'|MovieID='$mid'|MovieName='$mname'|MovieRating='$mrate'|Price='$mprice >> $outputfile
+      echo 'Timestamp='$(date)'|CustomerID='$cid'|CustomerName="'$cname'"|CCtype='$cctype'|CCNbr='$ccnbr'|CustomerAge='$cage'|MovieID='$mid'|MovieName='$mname'|MovieRating='$mrate'|Price='$mprice >> $outputfile
 # $card\|$movie
       dbm=`echo $(( ( RANDOM % 2 )  + 1 ))`
       if [ "$dbm" == "2" ]
       then
-        echo 'Timestamp='$(date)'|CustomerID='$cid'|CustomerName='$cname'|CCtype='$cctype'|CCNbr='$ccnbr'|CustomerAge='$cage'|MovieID='$mid'|MovieName='$mname'|MovieRating='$mrate'|Price='$mprice >> $outputfile
+        echo 'Timestamp='$(date)'|CustomerID='$cid'|CustomerName="'$cname'"|CCtype='$cctype'|CCNbr='$ccnbr'|CustomerAge='$cage'|MovieID='$mid'|MovieName='$mname'|MovieRating='$mrate'|Price='$mprice >> $outputfile
       fi
       snack=""
       snack2=""
@@ -50,7 +50,7 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
         snack=`grep ^${sid}\| ${datadir}/snack_prices.txt | sed 's/\\r//g'`
         sname=`echo $snack | cut -d\| -f2 | sed 's/\\r//g'`
         sprice=`echo $snack | cut -d\| -f3 | sed 's/\\r//g'`
-        echo 'Timestamp='$(date)'|CustomerID='$cid'|CustomerName='$cname'|CCtype='$cctype'|CCNbr='$ccnbr'|CustomerAge='$cage'|SnackID='$sid'|SnackName='$sname'|Price='$sprice >> $outputfile
+        echo 'Timestamp='$(date)'|CustomerID='$cid'|CustomerName="'$cname'"|CCtype='$cctype'|CCNbr='$ccnbr'|CustomerAge='$cage'|SnackID='$sid'|SnackName='$sname'|Price='$sprice >> $outputfile
 #        echo $(date) $card\|$snack
       fi
       if [ "$sid2" != "0" ]
@@ -58,7 +58,7 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
         snack2=`grep ^${sid2}\| ${datadir}/snack_prices.txt | sed 's/\\r//g'`
         sname=`echo $snack2 | cut -d\| -f2 | sed 's/\\r//g'`
         sprice=`echo $snack2 | cut -d\| -f3 | sed 's/\\r//g'`
-        echo 'Timestamp='$(date)'|CustomerID='$cid'|CustomerName='$cname'|CCtype='$cctype'|CCNbr='$ccnbr'|CustomerAge='$cage'|SnackID='$sid'|SnackName='$sname'|Price='$sprice >> $outputfile
+        echo 'Timestamp='$(date)'|CustomerID='$cid'|CustomerName="'$cname'"|CCtype='$cctype'|CCNbr='$ccnbr'|CustomerAge='$cage'|SnackID='$sid'|SnackName='$sname'|Price='$sprice >> $outputfile
 #        echo $(date) $card\|$snack2
       fi
    fi
